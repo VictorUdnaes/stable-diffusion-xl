@@ -22,10 +22,16 @@ pipe.to(device)
 # Define the prompt
 prompt = "A mystical grey-bearded wizard stands in the middle of a medieval tavern, smiling at the camera"
 
-# Set low resolution for quick testing
-
-# Generate the image with low resolution
+# Generate the image with base resolution
 image = pipe(prompt=prompt).images[0]
+
+# Custom resolution ------------------------------------------------
+
+# width = 1920
+# height = 1080
+# image = pipe(prompt=prompt, height=height, width=width).images[0]
+
+#-------------------------------------------------------------------
 
 # Specify the output directory
 output_dir = "./generated_images"
