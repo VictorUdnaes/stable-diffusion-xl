@@ -14,7 +14,7 @@ pip install invisible_watermark transformers accelerate safetensors
 <br>
 
 ## How to run the base model:
-You can run the  **StableDiffusionController.py** file in terminal directly and the image will generate a **generated_folder** in your current directory and save the generated image there.
+You can run the  **StableDiffusionController.py** file in terminal directly and the script will generate a **generated_folder** in your current directory and save the generated image there.
 To set the prompt just change the prompt variable in the script.
 If you want to change the resolution you can add width and height variables like this:
 ```python
