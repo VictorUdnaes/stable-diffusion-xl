@@ -11,6 +11,11 @@ pip install diffusers --upgrade
 pip install invisible_watermark transformers accelerate safetensors
 ```
 
+#### Problems with using pip:
+If you encounter **error externally-managed-environment** error when using pip, use this tutorial:
+https://dev.to/luca1iu/how-to-fix-the-externally-managed-environment-error-when-using-pip-2omo
+(Its easiest to force install imo.)
+
 <br>
 
 ## How to run the base model:
