@@ -21,11 +21,11 @@ python StableDiffusionController.py
 To set the prompt just change the prompt variable in the script.
 If you want to change the resolution you can add width and height variables like this:
 ```python
-# Set low resolution for quick testing
-height = 128  # Low height in pixels
-width = 128   # Low width in pixels
+# Set resolution
+height = 128  # height in pixels
+width = 128   # width in pixels
 
-# Generate the image with low resolution
+# Generate the image with custom resolution
 image = pipe(prompt=prompt, height=height, width=width).images[0]
 ```
 **Note: changing the base resolution can affect the generation time, and setting it to low can significantly affect the quality of the picture. It's reccomended to not change the resolution manually.**
